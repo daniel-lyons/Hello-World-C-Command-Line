@@ -12,7 +12,9 @@ int main(int argc, const char * argv[])
 {
 
     // insert code here...
-    printf("Hello, World!\n");
+    char message[40]= "this is crazy\0";
+    
+    printf("Hello, World!?! %s\n", message);
     return 0;
 }
 
